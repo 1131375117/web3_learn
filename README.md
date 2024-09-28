@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+command line
+ npx hardhat help
+ npx hardhat deploy-fundme
+ npx hardhat run .\scripts\deployFundMe.js
+ npx hardhat deploy
+ npx hardhat compile
+ npm install @chainlink/env-enc
+ npm install --save-dev dotenv
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+ npm install @chainlink/contracts --save-dev
+ git commit  -m 'project init'  
+ git add remote origin https://github.com/1131375117/web3_learn.git

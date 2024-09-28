@@ -9,10 +9,13 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@chainlink/env-enc": "^1.0.5",
     "hardhat": "^2.22.12",
     "save-dev": "^0.0.1-security"
   },
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+    "@chainlink/contracts": "^1.2.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5"
   }
 }
